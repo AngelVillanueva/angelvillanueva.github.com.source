@@ -149,36 +149,30 @@
 <h1 id="h1">h1</h1>
 <p>Código con coderay:</p>
 
-<div><div class="CodeRay">
-  <div class="code"><pre>some code just by tabbing
-some more require <span class="string"><span class="delimiter">'</span><span class="content">this/that</span><span class="delimiter">'</span></span>
-<span class="constant">User</span>.each <span class="keyword">do</span> |u|
-very interesting <span class="keyword">and</span> awesome
-</pre></div>
-</div>
-</div>
+<pre><code class="language-ruby">some code just by tabbing
+some more require 'this/that'
+User.each do |u|
+very interesting and awesome
+</code></pre>
 
-<div><div class="CodeRay">
-  <div class="code"><pre><span class="keyword">module</span> <span class="class">Jekyll</span>
-  <span class="keyword">class</span> <span class="class">TagIndex</span> &lt; <span class="constant">Page</span>
-    <span class="keyword">def</span> <span class="function">initialize</span>(site, base, dir, tag)
-      <span class="instance-variable">@site</span> = site
-      <span class="instance-variable">@base</span> = base
-      <span class="instance-variable">@dir</span> = dir
-      <span class="instance-variable">@name</span> = <span class="string"><span class="delimiter">'</span><span class="content">index.html</span><span class="delimiter">'</span></span>
-      <span class="predefined-constant">self</span>.process(<span class="instance-variable">@name</span>)
-      <span class="predefined-constant">self</span>.read_yaml(<span class="constant">File</span>.join(base, <span class="string"><span class="delimiter">'</span><span class="content">_layouts</span><span class="delimiter">'</span></span>), <span class="string"><span class="delimiter">'</span><span class="content">tag_index.html</span><span class="delimiter">'</span></span>)
-      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">tag</span><span class="delimiter">'</span></span>] = tag
-      tag_title_prefix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_prefix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">Tagged: </span><span class="delimiter">'</span></span>
-      tag_title_suffix = site.config[<span class="string"><span class="delimiter">'</span><span class="content">tag_title_suffix</span><span class="delimiter">'</span></span>] || <span class="string"><span class="delimiter">'</span><span class="content">&amp;#8211;</span><span class="delimiter">'</span></span>
-      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">title</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="inline"><span class="inline-delimiter">#{</span>tag_title_prefix<span class="inline-delimiter">}</span></span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="delimiter">&quot;</span></span>
-      <span class="predefined-constant">self</span>.data[<span class="string"><span class="delimiter">'</span><span class="content">description</span><span class="delimiter">'</span></span>] = <span class="string"><span class="delimiter">&quot;</span><span class="content">An archive of posts tagged </span><span class="inline"><span class="inline-delimiter">#{</span>tag<span class="inline-delimiter">}</span></span><span class="content">.</span><span class="delimiter">&quot;</span></span>
-    <span class="keyword">end</span>
-  <span class="keyword">end</span>
-<span class="keyword">end</span>
-</pre></div>
-</div>
-</div>
+<pre><code class="language-ruby">module Jekyll
+  class TagIndex &lt; Page
+    def initialize(site, base, dir, tag)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'index.html'
+      self.process(@name)
+      self.read_yaml(File.join(base, '_layouts'), 'tag_index.html')
+      self.data['tag'] = tag
+      tag_title_prefix = site.config['tag_title_prefix'] || 'Tagged: '
+      tag_title_suffix = site.config['tag_title_suffix'] || '&amp;#8211;'
+      self.data['title'] = "#{tag_title_prefix}#{tag}"
+      self.data['description'] = "An archive of posts tagged #{tag}."
+    end
+  end
+end
+</code></pre>
 
 <p>Y finalmente una blockquote o como sea:</p>
 

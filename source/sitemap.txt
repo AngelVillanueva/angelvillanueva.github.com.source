@@ -1,8 +1,18 @@
----
-# Remember to set production_url in your _config.yml file!
-title : Sitemap
----
-{% for page in site.pages %}
-{{site.production_url}}{{ page.url }}{% endfor %}
-{% for post in site.posts %}
-{{site.production_url}}{{ post.url }}{% endfor %}
+
+/about/
+/archive/index.html
+/atom.xml
+/categories.html
+/feed.xml
+/index.html
+/rss.xml
+/sitemap.txt
+/tags/
+/page2/index.html
+
+/post-video
+/post-images
+/post-enlace
+/nova/hola-mundo
+/sample-post
+/lessons/jekyll-introduction

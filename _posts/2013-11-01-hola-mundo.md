@@ -39,6 +39,11 @@ very interesting and awesome
 <div>hola</div>
 ~~~
 
+{% highlight php %}
+  $hola = 2;
+  echo $hola;
+{% endhighlight %}
+
 ~~~ ruby
 module Jekyll
   class TagIndex < Page

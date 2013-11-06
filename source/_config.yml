@@ -1,0 +1,73 @@
+title:            El blog de Angel
+description:      Blog personal de Angel Villanueva
+disqus_shortname: angelvperezblog
+#Your site's domain goes here. Leave localhost server or blank when working locally.
+url:              http://angelvillanueva.es
+
+# Owner/author information
+owner:
+  name:           Angel Villanueva
+  avatar:         avatar.png
+  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  email:          angel.vperez@gmail.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        angelvperez
+  facebook:       angelvillanueva3914
+  github:         AngelVillanueva
+  stackexchange:  
+  linkedin:       angelvillanueva
+  instagram:      
+  flickr:         
+  tumblr:         
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:   
+
+# Background image to be tiled on all pages
+background: nil
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:   'UA-45462709-1'
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
+
+# Links to include in top navigation
+# For external links add external: true
+links:
+  - title: Entradas
+    url: /archive
+  - title: Etiquetas
+    url: /tags
+  - title: la web de sinapse
+    url: http://www.sinapse.es
+    external: true
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Madrid
+future:      true
+pygments:    true
+markdown:    kramdown
+lang: es
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+# include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

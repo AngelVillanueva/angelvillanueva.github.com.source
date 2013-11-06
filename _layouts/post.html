@@ -29,7 +29,7 @@
         {% else %}
           <h1 class="entry-title" itemprop="name"><a href="{{ page.url }}" rel="bookmark" title="{{ page.title }}" itemprop="url">{{ page.title }}</a></h1>
         {% endif %}
-        <h2>{{ page.date | date: "%d.%m.%Y" }}</h2>
+        <h2>{{ page.date | localize: "%d %B %Y" }}</h2>
       </div><!-- /.header-title-wrap -->
     </header>
     <div class="entry-content" itemprop="description">

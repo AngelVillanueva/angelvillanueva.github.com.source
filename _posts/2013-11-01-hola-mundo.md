@@ -35,6 +35,10 @@ User.each do |u|
 very interesting and awesome
 ~~~
 
+~~~ html
+<div>hola</div>
+~~~
+
 ~~~ ruby
 module Jekyll
   class TagIndex < Page

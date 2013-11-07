@@ -16,6 +16,8 @@ This is my first post, it seems pretty simple to get a blog running.
 
 It's time to learn some more markdown, perhaps [here] (http://www.as.com).
 
+![An Image]({{ site.url }}/images/hpstr-jekyll-theme-preview.jpg)
+
 Ok, do not remember how to build a link with markdown, let's see different things:
 
 

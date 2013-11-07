@@ -1,15 +1,15 @@
-title:            Diario de a bordo
+title:            Lluno, Uguota y Min
 description:      Blog personal de Angel Villanueva
 disqus_shortname: angelvperezblog
 #Your site's domain goes here. Leave localhost server or blank when working locally.
-url:              http://angelvillanueva.es
+url:              
 destination:      source
 
 # Owner/author information
 owner:
   name:           Angel Villanueva
-  avatar:         avatar.png
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  avatar:         avatar-blue.jpg
+  bio:            "Del siglo pasado, en el momento presente, anticipando el futuro. Yo soy ese."
   email:          angel.vperez@gmail.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        angelvperez

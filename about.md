@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about/
+permalink: /sobre-yo/
 title: Sobre migo mismo
 tags: []
 image:

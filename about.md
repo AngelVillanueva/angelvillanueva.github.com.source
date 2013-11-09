@@ -10,24 +10,33 @@ image:
 share: true
 ---
 
-Ni aquí ni en ningún lugar    
+No aquí, ni en ningún lugar, vivía un hombre.
 
-## What HPSTR brings to the table:
+La edad, que se había llevado su flexibilidad y figura, dejole a cambio sesuda experiencia; empero, no habiendo mermado su pasión y energía, máquina definitiva de pensar era.
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+Y pensó. Y pensando  
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+alcabalero, jindama.
 
-[^1]: Example: *domain.com/category-name/post-title*
+Ni aquí ni en ningún lugar, y desde luego no en un agujero en el suelo, vivía un hombre.
+
+Había conseguido liberarse de la carga de tener que rellenar formularios con sus datos personales gracias a frecuentar sólo webs que permitiesen comprar como invitado; y como además estaba inscrito en una lista Robinson no perdía un instante atendiendo llamadas comerciales, de modo que pudo dedicar todas sus energías[^1] a medrar en la rígida estructura de castas que gobernaba la sociedad.
+
+Este es su cuaderno de bitácora. Si alguna vez necesitas ayuda y lo encuentras, quizás puedas contratarle. 
+
+## Increíbles contenidos del paquete :
+
+* Perdió la cuenta de todas las veces que se ha reído de sí mismo.
+* Nunca llevó la cuenta de todas las veces que los demás se rieron de él.  
+* Enfoque ollístico: no cejará hasta que se le vaya la olla.
+* Análisis siestémico: las mejores ideas, haciendo la siesta.
+* Planteamientos 360: euros hora.
+
+## Para hacer este blog:
+* Dejando a un lado al autor, ningún otro animal resultó dañado.
+* Codificado con [Jekyll](http://jekyllrb.com) en [Sublime Text](http://sublimetext.com).
+* Control de versiones de la mano de [git](http://git-scm.com) y [Github](http://github.com).
+* Comentarios manejados por [Disqus](http://disqus.com).
+* Resaltado sintáctico en los fragmentos de código gracias a [Pygments](http://pygments.org) y [Coderay](http://coderay.rubychan.de).
+
+[^1]: *por lo demás escasas*
